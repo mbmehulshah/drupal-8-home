@@ -1,0 +1,5 @@
+hello_world:
+title: 'Hello World'
+description: 'This is an example'
+parent: main
+route_name: hello_world

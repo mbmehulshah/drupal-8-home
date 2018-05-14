@@ -1,0 +1,14 @@
+drupalup.simple_form:
+    path: 'simple-form'
+    defaults:
+        _form: '\Drupal\drupalup\Form\SimpleForm'
+        _title: 'Our Cool Form'
+    requirements:
+        _permission: 'access content'
+drupalup.simple_ajax_form:
+    path: 'simple-ajax-form'
+    defaults:
+        _form: '\Drupal\drupalup\Form\SimpleAjaxForm'
+        _title: 'Our Cool ajax Form'
+    requirements:
+        _permission: 'access content'
